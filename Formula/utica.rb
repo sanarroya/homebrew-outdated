@@ -7,7 +7,7 @@ class Utica < Formula
       shallow:  false
   license "MIT"
   head "https://github.com/Interfere/Utica.git", shallow: false
-  
+
   bottle do
     root_url "https://github.com/Interfere/Utica/releases/download/0.40.0-pre"
     sha256 cellar: :any_skip_relocation, big_sur:       "6ab9e7afd303018454de648cabe35c8c3bb184b0f6d415abcb2372ac8445b154"
