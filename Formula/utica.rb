@@ -13,6 +13,7 @@ class Utica < Formula
     sha256 cellar: :any_skip_relocation, big_sur:       "6ab9e7afd303018454de648cabe35c8c3bb184b0f6d415abcb2372ac8445b154"
     sha256 cellar: :any_skip_relocation, catalina:      "19bdd1b2c96965cc6cb99baa3cc8e53dec77dd28b08b1f2984828e36fcdf383c"
     sha256 cellar: :any_skip_relocation, monterey:      "b7af656a279124eeb500f5c1334d8f2edfcb741d0fec64bda47584970a855205"
+    sha256 cellar: :any_skip_relocation, arm64_monterey: "8013d6d31ed497df97e52ffcaa323a00759162c26a33b9345f9fb637a44b9985"
   end
 
   depends_on xcode: ["12.0", :build]
