@@ -17,7 +17,8 @@ class Utica < Formula
   depends_on xcode: ["12.0", :build]
 
   def install
-    bin.install "utica"
+    system "make", "prefix_install", "PREFIX=#{prefix}"
+    bin.install ".build/release/utica"
     bash_completion.install "Source/Scripts/utica-bash-completion" => "utica"
     zsh_completion.install "Source/Scripts/utica-zsh-completion" => "_utica"
     fish_completion.install "Source/Scripts/utica-fish-completion" => "utica.fish"
