@@ -10,8 +10,9 @@ class Utica < Formula
 
   bottle do
     root_url "https://github.com/Interfere/Utica/releases/download/0.40.0-pre"
-    sha256 cellar: :any_skip_relocation, big_sur:       "6ab9e7afd303018454de648cabe35c8c3bb184b0f6d415abcb2372ac8445b154"
-    sha256 cellar: :any_skip_relocation, catalina:      "19bdd1b2c96965cc6cb99baa3cc8e53dec77dd28b08b1f2984828e36fcdf383c"
+    sha256 cellar: :any_skip_relocation, arm64_monterey:                          "54d91a0b7c4e8006baa28f26780465e199c5e5afca3111eb24f7078f03dbcf3a"
+    sha256 cellar: :any_skip_relocation, big_sur:                                 "6ab9e7afd303018454de648cabe35c8c3bb184b0f6d415abcb2372ac8445b154"
+    sha256 cellar: :any_skip_relocation, catalina:                                "19bdd1b2c96965cc6cb99baa3cc8e53dec77dd28b08b1f2984828e36fcdf383c"
   end
 
   depends_on xcode: ["12.0", :build]
