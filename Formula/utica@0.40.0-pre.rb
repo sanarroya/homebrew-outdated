@@ -1,4 +1,4 @@
-class UticaAT0400-pre < Formula
+class UticaAT0400 < Formula
     desc "Decentralized dependency manager for Cocoa"
     homepage "https://github.com/Interfere/Utica"
     url "https://github.com/Interfere/Utica.git",
